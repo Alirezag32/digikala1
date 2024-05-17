@@ -1,7 +1,7 @@
 import { Box, Button, CardMedia } from "@mui/material";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
-import imgDigikala from '/پروژه های برنامه نویسی/digikala/digikala/src/images/footer/firstImageBox/digikala.webp'
+// import imgDigikala from '/پروژه های برنامه نویسی/digikala/digikala/src/images/footer/firstImageBox/digikala.webp'
 import FooterShowMore from "./footerShowMore";
 const FooterLgLower = () => {
   return (
@@ -64,12 +64,12 @@ const FooterLgLower = () => {
           sx={{ display: "flex", flexDirection: "row", alignItems: "center" }}
         >
           <Box>
-            <CardMedia
+            {/* <CardMedia
               width="64px"
               height="64px"
               component="image"
               image={imgDigikala}
-            />
+            /> */}
           </Box>
           <Box sx={{ display: "flex", flexDirection: "column" }}>
             <Box>تجربه خرید بهتر در</Box>
