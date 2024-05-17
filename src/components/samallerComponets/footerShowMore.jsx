@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Typography } from "@mui/material";
+import { Button } from "@mui/material";
 
 const FooterShowMore = () => {
           const [showMore, setShowMore] = useState(false);
