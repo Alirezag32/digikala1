@@ -13,7 +13,8 @@ export default function CustomBottomNavigation() {
   return (
     <BottomNavigation
       sx={{
-        display: { lg: "none", display: "flex", width: "100%" },
+        
+        display: { lg: "none", display: "flex", width: "100%" , position : "fixed" , bottom  :"0px" },
         justifyContent: "space-between", 
         padding: "0 16px", 
       }}
@@ -23,7 +24,7 @@ export default function CustomBottomNavigation() {
       }}
       showLabels
     >
-      <BottomNavigationAction label="خانه" icon={<HomeIcon />} />
+      <BottomNavigationAction  label="خانه" icon={<HomeIcon />} />
       <BottomNavigationAction label="دسته بندی" icon={<GridViewIcon />} />
       <BottomNavigationAction label="سبد خرید" icon={<ShoppingCart />} />
       <BottomNavigationAction label="دیجیکالای من" icon={<PersonOutline />} />

@@ -31,18 +31,18 @@ const Navbar = () => {
         direction: "rtl",
         backgroundColor: "#FFFFFF",
         marginBottom: "30px",
-       
       }}
     >
       <Toolbar>
-
-      
-        <Typography variant="h6" noWrap component="div" sx={{ mr: 2 , marginRight :{lg : "15vh" , md : "0" , sm : "0"} }}>
+        <Typography
+          variant="h6"
+          noWrap
+          component="div"
+          sx={{ mr: 2, marginRight: { lg: "15vh", md: "0", sm: "0" } }}
+        >
           <SvgIcon
-            sx={{width : {xs : "60px" , sm : "115px"} , height : "30"}}
+            sx={{ width: { xs: "60px", sm: "115px" }, height: "30" }}
             xmlns="http://www.w3.org/2000/svg"
-            
-            
             viewBox="0 0 115 30"
           >
             <g fill="none" fill-rule="evenodd">
@@ -70,9 +70,8 @@ const Navbar = () => {
             mr: 2,
             width: "100%",
             "@media (min-width: 600px)": {
-              marginRight : "5px",
+              marginRight: "5px",
               width: "auto",
-              
             },
           }}
         >
@@ -82,7 +81,7 @@ const Navbar = () => {
               cursor: "pointer",
               pl: 4,
               pr: 1,
-              width: {lg : "500px" , sm : "400px" , xs : "100px",md : "500px"},
+              width: { lg: "500px", sm: "400px", xs: "100px", md: "500px" },
               color: "rgb(240, 240, 241)",
               "&::placeholder": {
                 color: "inherit",
@@ -131,7 +130,7 @@ const Navbar = () => {
             flexDirection: "row",
             alignItems: "center",
             marginRight: "10px",
-
+            
             borderBottom: "1px solid transparent",
             transition: "border-bottom 0.3s ease",
             "&:hover": {
